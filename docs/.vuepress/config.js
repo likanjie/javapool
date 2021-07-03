@@ -20,7 +20,7 @@ module.exports = {
                     ['/basics/拦截器.html','拦截器'],
                     ['/basics/过虑器.html','过虑器'],
                     ['/basics/jdk8.html','jdk8'],
-                    ['/basics/Java8 Stream.html','Java8 Stream']
+                    ['/basics/Java8-Stream.html','Java8-Stream']
                 ]
             },
             {
@@ -82,11 +82,27 @@ module.exports = {
                 ]
             },
             {
+                title: 'Mybatis',
+                collapsable: false,
+                sidebarDepth:2,
+                children: [
+                    ['/mybatis/MyBatis的SQL执行流程分析.html','MyBatis的SQL执行流程分析']
+                ]
+            },
+            {
                 title: 'Netty',
                 collapsable: false,
                 sidebarDepth:2,
                 children: [
                     ['/netty/Netty核心技术及源码剖析.html','Netty核心技术及源码剖析']
+                ]
+            },
+            {
+                title: 'Tips',
+                collapsable: false,
+                sidebarDepth:2,
+                children: [
+                    ['/tips/完整的身份证正则表达式.html','完整的身份证正则表达式']
                 ]
             },
             ['/about','关于']

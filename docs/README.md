@@ -16,8 +16,7 @@
 - [拦截器](/basics/拦截器.html)
 - [过虑器](/basics/过虑器.html)
 - [jdk8](/basics/jdk8.html)
-- [Java8 Stream](/basics/Java8 Stream.html)
-- [Java8 Stream](/basics/Java8 Stream.html)
+- [Java8-Stream](/basics/Java8-Stream.html)
 
 ## 设计模式
 - [黑马-设计模式](/designpattern/黑马-设计模式.html)
@@ -40,6 +39,7 @@
 - [BeanFactory和FactoryBean的区别](/spring/BeanFactory和FactoryBean的区别.html)
 ## Spring MVC
 ## Mybatis
+- [MyBatis的SQL执行流程分析](/mybatis/MyBatis的SQL执行流程分析.html)
 ## RabbitMQ
 ## RocketMQ
 ## kafka
@@ -56,3 +56,5 @@
 ## Docker
 ## zookeeper
 ## 项目经验
+## tips
+- [身份证正则表达式](/tips/完整的身份证正则表达式.html)
