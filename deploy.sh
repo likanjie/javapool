@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm run build
+ npm run docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -22,5 +22,5 @@ git commit -m 'deploy'
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 #git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
 #https://github.com/likanjie/javapool.github.io.git
-git push -f git@github.com/likanjie/javapool.github.io.git master
+git push -f origin master
 cd -
